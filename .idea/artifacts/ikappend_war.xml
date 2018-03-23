@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ikappend:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ikappend-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ikappend:war exploded" />
+    </root>
+  </artifact>
+</component>
