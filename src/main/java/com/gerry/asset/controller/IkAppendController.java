@@ -1,4 +1,4 @@
-package com.yiche.ikappend.controller;
+package com.gerry.asset.controller;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.LogManager;
@@ -18,7 +18,7 @@ public class IkAppendController {
 
     private static final Logger logService = LogManager.getLogger(IkAppendController.class);
 
-    private static String filePath="/root/softwer/apache-tomcat-7.0.68/webapps/ROOT/hot.dic";
+    private static String filePath="/Users/kouyouyang/Desktop/github/ikappend/data/hot.dic";
 
     @GetMapping(value = "ikAppend/{word}")
     public String appendIkWord(@PathVariable("word")  String word){
