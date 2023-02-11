@@ -18,7 +18,7 @@ public class IkAppendController {
 
     private static final Logger logService = LogManager.getLogger(IkAppendController.class);
 
-    private static String filePath="/Users/kouyouyang/Desktop/github/ikappend/data/hot.dic";
+    private static String filePath="./data/hot.dic";
 
     @GetMapping(value = "ikAppend/{word}")
     public String appendIkWord(@PathVariable("word")  String word){
